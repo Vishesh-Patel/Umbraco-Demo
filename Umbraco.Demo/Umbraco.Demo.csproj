@@ -332,6 +332,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Database\Umbraco_DemoDb-StarterWebsite.mdf" />
+    <Content Include="App_Data\Database\Umbraco_DemoDb-StarterWebsite_log.ldf">
+      <DependentUpon>Umbraco_DemoDb-StarterWebsite.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.htm" />
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.resource.js" />
@@ -403,7 +407,9 @@
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="scripts\ai.0.22.19-build00125.js" />
     <Content Include="scripts\ai.0.22.19-build00125.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

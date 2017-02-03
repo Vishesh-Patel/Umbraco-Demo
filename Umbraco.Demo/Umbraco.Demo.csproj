@@ -353,6 +353,10 @@
     <Content Include="Config\Lang\ru-RU.user.xml" />
     <Content Include="Config\Lang\sv-SE.user.xml" />
     <Content Include="Config\Lang\zh-CN.user.xml" />
+    <Content Include="Database\Umbraco_Demo-NewSite.mdf" />
+    <Content Include="Database\Umbraco_Demo-NewSite_log.ldf">
+      <DependentUpon>Umbraco_Demo-NewSite.mdf</DependentUpon>
+    </Content>
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />

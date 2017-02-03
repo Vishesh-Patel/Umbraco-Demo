@@ -332,8 +332,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database\Umbraco_DemoDb-StarterWebsite.mdf" />
-    <Content Include="App_Data\Database\Umbraco_DemoDb-StarterWebsite_log.ldf">
+    <Content Include="Database\Umbraco_DemoDb-StarterWebsite.mdf" />
+    <Content Include="Database\Umbraco_DemoDb-StarterWebsite_log.ldf">
       <DependentUpon>Umbraco_DemoDb-StarterWebsite.mdf</DependentUpon>
     </Content>
     <Content Include="App_Plugins\ModelsBuilder\modelsbuilder.controller.js" />

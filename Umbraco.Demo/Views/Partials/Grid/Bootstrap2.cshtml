@@ -6,6 +6,8 @@
 {
     var oneColumn = ((System.Collections.ICollection)Model.sections).Count == 1;
     
+    @Html.Partial("_breadcrum")
+
     <div class="umb-grid">
         @if (oneColumn)
         {

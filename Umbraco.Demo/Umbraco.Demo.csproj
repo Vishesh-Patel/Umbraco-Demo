@@ -332,6 +332,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="commit-test.txt" />
     <Content Include="Database\Umbraco_DemoDb-StarterWebsite.mdf" />
     <Content Include="Database\Umbraco_DemoDb-StarterWebsite_log.ldf">
       <DependentUpon>Umbraco_DemoDb-StarterWebsite.mdf</DependentUpon>
